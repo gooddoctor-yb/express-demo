@@ -1,0 +1,13 @@
+Sending build context to Docker daemon 20.99 kB
+Step 1/8 : FROM node:12
+ ---> cfcf3e70099d
+Step 2/8 : WORKDIR /app
+ ---> Using cache
+ ---> e8d43b076587
+Step 3/8 : COPY package*.json ./
+ ---> Using cache
+ ---> 98b5d5a3a9c3
+Step 4/8 : RUN npm install --ignore-scripts --unsafe-perm
+ ---> Running in 8b094d985a7a
+
+[91m[0m
